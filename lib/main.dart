@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Weather',
       theme: ThemeData(primaryColor: Colors.red),
       home: WeatherPage(),
